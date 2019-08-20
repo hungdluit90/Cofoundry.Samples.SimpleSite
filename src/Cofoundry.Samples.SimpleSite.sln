@@ -1,9 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cofoundry.Samples.SimpleSite", "Cofoundry.Samples.SimpleSite\Cofoundry.Samples.SimpleSite.csproj", "{3A77B4AF-4EB7-43CC-A1CD-4E693C72DCBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cofoundry.Samples.SimpleSite", "Cofoundry.Samples.SimpleSite\Cofoundry.Samples.SimpleSite.csproj", "{3A77B4AF-4EB7-43CC-A1CD-4E693C72DCBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cofoundry.Web", "..\cofoundry\src\Cofoundry.Web\Cofoundry.Web.csproj", "{E0BBC8CF-9B08-4DE5-AA8A-7405112894B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cofoundry.Core", "..\cofoundry\src\Cofoundry.Core\Cofoundry.Core.csproj", "{42731D4B-7C9F-4DA9-8C85-305A87D32966}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cofoundry.Domain", "..\cofoundry\src\Cofoundry.Domain\Cofoundry.Domain.csproj", "{3DC4A29B-666C-47D4-AD31-48C7B8587B25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cofoundry.Web.Admin", "..\cofoundry\src\Cofoundry.Web.Admin\Cofoundry.Web.Admin.csproj", "{672EB75D-4305-4154-87E4-447F682E031C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cofoundry.Plugins.ErrorLogging", "..\Cofoundry.Plugins.ErrorLogging\src\Cofoundry.Plugins.ErrorLogging\Cofoundry.Plugins.ErrorLogging.csproj", "{32523CA5-3848-426C-9C25-82E71DB0249F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cofoundry.Plugins.ErrorLogging.Admin", "..\Cofoundry.Plugins.ErrorLogging\src\Cofoundry.Plugins.ErrorLogging.Admin\Cofoundry.Plugins.ErrorLogging.Admin.csproj", "{D04BF710-25F6-4E02-9A87-CCC15665F8BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cofoundry.Plugins.Imaging.ImageSharp", "..\Cofoundry.Plugins.Imaging.ImageSharp\src\Cofoundry.Plugins.Imaging.ImageSharp\Cofoundry.Plugins.Imaging.ImageSharp.csproj", "{097E5C9A-2EEC-4111-95FA-7952ECFF14D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +29,39 @@ Global
 		{3A77B4AF-4EB7-43CC-A1CD-4E693C72DCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A77B4AF-4EB7-43CC-A1CD-4E693C72DCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A77B4AF-4EB7-43CC-A1CD-4E693C72DCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0BBC8CF-9B08-4DE5-AA8A-7405112894B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0BBC8CF-9B08-4DE5-AA8A-7405112894B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0BBC8CF-9B08-4DE5-AA8A-7405112894B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0BBC8CF-9B08-4DE5-AA8A-7405112894B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42731D4B-7C9F-4DA9-8C85-305A87D32966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42731D4B-7C9F-4DA9-8C85-305A87D32966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42731D4B-7C9F-4DA9-8C85-305A87D32966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42731D4B-7C9F-4DA9-8C85-305A87D32966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC4A29B-666C-47D4-AD31-48C7B8587B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC4A29B-666C-47D4-AD31-48C7B8587B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC4A29B-666C-47D4-AD31-48C7B8587B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC4A29B-666C-47D4-AD31-48C7B8587B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{672EB75D-4305-4154-87E4-447F682E031C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672EB75D-4305-4154-87E4-447F682E031C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672EB75D-4305-4154-87E4-447F682E031C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672EB75D-4305-4154-87E4-447F682E031C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32523CA5-3848-426C-9C25-82E71DB0249F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32523CA5-3848-426C-9C25-82E71DB0249F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32523CA5-3848-426C-9C25-82E71DB0249F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32523CA5-3848-426C-9C25-82E71DB0249F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D04BF710-25F6-4E02-9A87-CCC15665F8BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04BF710-25F6-4E02-9A87-CCC15665F8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04BF710-25F6-4E02-9A87-CCC15665F8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04BF710-25F6-4E02-9A87-CCC15665F8BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{097E5C9A-2EEC-4111-95FA-7952ECFF14D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097E5C9A-2EEC-4111-95FA-7952ECFF14D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097E5C9A-2EEC-4111-95FA-7952ECFF14D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097E5C9A-2EEC-4111-95FA-7952ECFF14D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9287684C-C590-4A20-BE1A-988965F95768}
 	EndGlobalSection
 EndGlobal

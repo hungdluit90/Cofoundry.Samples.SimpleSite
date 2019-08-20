@@ -1,0 +1,9 @@
+[submodule "cofoundry"]
+	path = cofoundry
+	url = https://github.com/cofoundry-cms/cofoundry.git
+[submodule "Cofoundry.Plugins.ErrorLogging"]
+	path = Cofoundry.Plugins.ErrorLogging
+	url = https://github.com/cofoundry-cms/Cofoundry.Plugins.ErrorLogging.git
+[submodule "Cofoundry.Plugins.Imaging.ImageSharp"]
+	path = Cofoundry.Plugins.Imaging.ImageSharp
+	url = https://github.com/cofoundry-cms/Cofoundry.Plugins.Imaging.ImageSharp.git

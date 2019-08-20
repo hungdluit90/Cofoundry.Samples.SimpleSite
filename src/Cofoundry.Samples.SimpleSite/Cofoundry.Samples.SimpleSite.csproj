@@ -10,11 +10,12 @@
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>
-
-    <PackageReference Include="Cofoundry.Plugins.ErrorLogging.Admin" Version="0.6.0" />
-    <PackageReference Include="Cofoundry.Plugins.Imaging.ImageSharp" Version="0.1.0-ci0019" />
-    <PackageReference Include="Cofoundry.Web.Admin" Version="0.6.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Cofoundry.Plugins.ErrorLogging\src\Cofoundry.Plugins.ErrorLogging.Admin\Cofoundry.Plugins.ErrorLogging.Admin.csproj" />
+    <ProjectReference Include="..\..\Cofoundry.Plugins.Imaging.ImageSharp\src\Cofoundry.Plugins.Imaging.ImageSharp\Cofoundry.Plugins.Imaging.ImageSharp.csproj" />
+    <ProjectReference Include="..\..\cofoundry\src\Cofoundry.Web.Admin\Cofoundry.Web.Admin.csproj" />
   </ItemGroup>
 
 </Project>
